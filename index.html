@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A single page HTML5 games boiler project for PhaserJS 3 game framework">
+    <meta name="keywords" content="HTML,HTML5, CSS, JavaScript,Phaser3,Web,Games">
+    <meta name="author" content="iNerdStack">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="icon" href="assets/icon.ico" type="image/x-icon" />
+
+  
+    <title>PHASER3 BOILER TEMPLATE</title>
+    <script src="js/phaser.min.js">  </script>
+     <!-- Game configuration stored in main.js -->
+    <script src="js/main.js"></script>
+    <script src="js/scenes/BootScene.js"></script>
+    <script src="js/scenes/SceneOne.js"></script>
+    <script src="js/scenes/SceneTwo.js"></script>
+
+    <!-- Introduce Custom Fonts -->
+    <style media='screen' type='text/css'>
+  
+        @font-face {
+           font-family: GameFont;
+           src: url('assets/fonts/font.otf') format("truetype");
+           font-weight: 400;
+           font-weight:normal;
+        }
+       .fontLoader {
+           position: absolute;
+           left: -1000px;
+           visibility: hidden;
+        }
+      </style>
+
+
+<style media='screen' type='text/css'>
+  @font-face {
+     font-family: Franklin;
+     src: url('assets/fonts/Franklin.ttf') format("truetype");
+     font-weight: 400;
+     font-weight:normal;
+  }
+ .fontLoader {
+     position: absolute;
+     left: -1000px;
+     visibility: hidden;
+
+  }
+</style>
+<style>
+html,body {
+ height: 100%;
+  overflow: hidden;
+}
+        </style>
+
+</head>
+<body>
+
+    <!-- Display Game in Html -->
+    <div id="LoadGame" class="red-square"></div>
+    <span style="font-family:'GameFont'"></span>
+    <span style="font-family:'Franklin'"></span>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "image": {
+    "bg": "assets/images/bg.png"
+  },
+  "audio": {
+    "error": "assets/sounds/error.mp3",
+    "success": "assets/sounds/success.mp3"
+  }
+}
